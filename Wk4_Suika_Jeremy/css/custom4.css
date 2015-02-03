@@ -1,0 +1,685 @@
+/*This is a master CSS stylesheet */
+
+body{
+	/* backgroundackground-image:url('../images/wet_snow.png');  */
+	
+}
+
+#wrapper{
+	margin-right: auto;
+	margin-left: auto;
+	width:96%;
+
+	
+	
+	
+}
+
+
+
+img,video,embed,object{
+	max-width: 100%;
+}
+
+
+
+
+
+header{
+	margin-right: 3%;
+	margin-left: 3%;
+	width: 98%;
+	border: .4em solid #a98436;
+	background-image:url('../images/congruent_pentagon.png');
+
+	
+	
+	
+	
+}
+
+
+
+#logoTitle{
+	font: 2.2em Geneva,"Helvetica Neue", sans-serif;		/* style for the logo */
+	background-image: url(congruent_pentagon.png);
+	color: blue;
+	display: block;
+	text-transform: uppercase;
+	
+	
+}
+
+
+
+
+#navigation{
+	padding-bottom: 2.6%;
+	margin-top: 2.5083%;
+	margin-left:-1.041667%;	
+	padding-right:1.041667%;
+	padding-left:1.041667%;	
+	width: 97%;
+}
+
+#navigation ul li{
+	
+	float: left;
+	margin-left: 2.6%;
+	
+	
+}
+
+#navigation ul li a{
+	
+	height:3em;
+	line-height:-3em;
+	margin-right: 97%     
+	text-transform: uppercase;
+	font-family:Verdana,arial;
+	font-size:1.5em;
+	list-style-type: none;
+	overflow: hidden;
+	display: block;
+}
+
+
+
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+
+a:visited {
+    text-decoration: green;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+    background-color: #FF704D;
+    
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+
+
+
+
+#mainSection{
+	
+	margin-top: 2%;
+	margin-right: 2em;
+	float: left;
+	width: 50%;
+	border-right-color:#e8e8e8;
+	border-right-style: solid;
+	border-right-width: 3px;
+	}
+	
+	
+	
+	
+	.extraLinks{
+		color: blue;
+		
+	}
+	
+	
+	#introPara h1{
+		color: orange;
+		width: 80%;
+		font: bold 2em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	}
+	
+	
+	#introPara img{
+		width: 50%;
+		float: left;
+		padding: 1% 1%.5% 1%;
+	}
+	
+	
+
+	
+	
+	
+	#secondPara img{
+		float: right;
+		margin-right: 6px;
+	}
+	
+	
+	#secondPara h1{
+		font: bold 2em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+		margin-top: 10%;
+		width: 60%;
+		color: orange;
+		
+		
+	}
+	
+	#secondPara p{
+		padding-right:3%;
+	}
+	
+	
+	
+	
+	#randomTitle{
+		text-align:center
+	}
+	
+	
+	
+	
+
+	
+	
+
+	
+	
+	#borderVideoBox{
+		width: 100%;
+		position: relative;
+		margin-top: 5%;
+		border-top: .2em solid #333;
+		
+	}
+	
+	
+	
+	#videoBox{
+	position: relative;
+	width: 100%;
+	margin: 15px;
+	margin-left: 200px;
+	
+	}
+	
+
+	
+	#photogallery{				/* style for the link to the top of page */
+	
+		width: 60%;
+		
+	}
+
+
+	
+
+	div.img {
+	    margin: 2%;					/* photo gallary */
+	    
+	    padding: 1%;
+	    border: .4em solid #0000ff;
+	    height: auto;
+	    width: auto;
+	    float: left;
+	    text-align: center;
+	}	
+	
+	div.img img {
+	    display: inline;
+	    margin: .4em;
+	    border: .1em solid #ffffff;
+	}
+	
+	div.img a:hover img {
+	    border: .5em solid #0000ff;
+	}
+	
+	div.desc {
+	  text-align: center;
+	  font-weight: normal;
+	  width: 130px;
+	  margin: 1%;
+	  
+	  }						/* photo gallary */
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	#bottomOfPage{							/* style for the link to the top of page */
+	float: right;
+	margin-right: 25%;
+	color: red;
+
+}
+	
+	
+	#bottonOfPage h2{				/* style for the link to the top of page */
+		color: red;
+	}
+	
+	
+	
+	
+	
+	
+	
+	/* Right colmn starts here */
+	
+	
+	
+	aside{					/* style for the main section */
+		
+		margin-top: 8%;
+		padding-right: 1%;
+		margin-right: 1%;
+		margin-left: 4%;
+		float: right;
+		width: 32%;	
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	.button-wrapper{
+		margin: 5%;
+	}
+	
+	
+	
+
+	
+	
+	#smallSpot{			/* style for the ad */
+		width: 85%;
+		position: relative;
+		border: .50em solid #2fffff;
+		
+	}
+	
+	
+	
+	#smallSpot h2{				/* style for the ad */
+	text-align:center;
+	font: bold 2.4em "Comic Sans",Arial ;
+	
+	}
+	
+	
+	#smallSpot img{				/* style for the ad */
+		max-width: 85%;
+		positon:absolute;
+		padding: 3%;
+		margin: 4%;
+		
+	}
+	
+	
+	
+	#tableSite{
+		margin-top: 12em;
+	}
+
+	#tableSite h2{
+		font-family:Impact,arial,sans-serif;
+		text-align:center;
+	}
+
+
+
+
+
+table {											/* style for the table */
+    width:100%;
+    
+}
+table, th, td {
+    border: .1em solid black;
+    border-collapse: collapse;
+    
+}
+th, td {
+    padding: .5em;
+    text-align: left;
+}
+table#tableTime tr:nth-child(even) {
+    background-color: #e8865a;
+    
+}
+table#tableTime tr:nth-child(odd) {
+   background-color:#d897a8;
+}
+table#tableTime th	{
+    background-color: #63abff;
+    color: white;
+    
+}
+
+
+
+
+
+
+
+
+	/* style for the email fourm */
+
+
+
+
+ .group:before, .group:after { content: "\0020"; display: block; height: 0; overflow: hidden; }  
+ .group:after { clear: both; }  
+  
+ 
+ input[type=text],input[type=password],input[type=submit],textarea,button {
+ 	border: none;
+ 	background: transparent;
+ 	padding: .5em;
+ 	margin: 0;
+	 margin-bottom: 10px;
+	 color: blue;
+ 	border-radius: 0;
+ 	
+ 	
+ }
+ 
+ 
+ form {
+ 	width: 72%;
+ 	margin: 0 auto;
+ 	position: relative;
+ 	top: 8em;
+ 	padding: 2em 1.5em 2em 2em;
+ 	border: .5em solid #022E32;
+	position: relative;
+ 	background-color: #ffc72d;
+ 	 
+ 	
+ 
+ 	
+ }
+ 
+ input[type=text],input[type=password],input[type=submit],textarea {        											/* style for the email fourm */
+ 	float: right;
+ 	border: .2em solid black;
+ 	background:white;
+ 	width: 70%;
+ 	
+ }
+ 
+ button {
+ 	float: right;
+ 	color: #e8865a;
+ 	padding: .5em 1em;
+ 	background:black;
+ 	font-size: .75em;
+ }
+ 
+ 
+ 
+
+
+ 
+ 
+ ol {
+ 	list-style: none;
+ 	margin: 0;
+ 	padding:0;
+ }
+ 
+ ol li ol {
+ 	margin-left: 3.2em;
+ 	padding: .5em;
+ 	float: left;
+ 	
+ }
+ 											/* style for the email fourm */
+ ol li ol li {
+ 	display: inline;
+ }
+ 
+ ol li ol li label {
+ 	padding: 0;
+ 	display: inline;
+ 	float: none;
+ 	font-weight: normal;
+ }
+ 
+ 
+ ol li label,ol li .grouplabel {
+ 	font: bold 14px "Lucida Grande", Lucida, Verdana, sans-serif;
+ 	padding: 5px;
+ 	color: #315848;
+ 	display: block;
+ 	width: 20%;
+ 	float: left;
+ 	text-align: right;
+ 	
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1300px) {
+	
+	body{
+		background-color:red;
+	}
+	
+	
+	
+	
+	#borderVideoBox{
+		display:none;
+		
+	}
+	
+	
+	#videoBox{
+	display:none;
+	}
+	
+	
+	aside{					
+		
+		width:15%;
+		
+	}
+	
+	
+	
+	#mainSection{
+		
+		
+		width: 60%;
+		
+		}
+	
+	
+	#smallSpot{			/* style for the ad */
+		display:none
+		
+	}
+	
+	
+	
+	
+	
+}
+
+
+@media screen and (max-width:768px){
+	body{
+		background-color:orange
+	}
+
+
+	
+#logoTitle{
+			font: 1.5em Geneva,"Helvetica Neue", sans-serif;		/* style for the logo */
+			}
+	
+	
+	
+#navigation ul li a{
+	
+	height:3em;
+	line-height:-3em;
+	margin-right: 97%     
+	text-transform: uppercase;
+	font-family:Verdana,arial;
+	font-size:.8em;
+	list-style-type: none;
+	overflow: hidden;
+	display: block;
+}
+
+#borderVideoBox{
+	display: none;
+	
+}
+
+
+#videoBox{
+display: none;
+}
+
+
+#mainSection{
+	
+	
+	width: 100%;
+	
+	border-right-style: none;
+	
+	}
+	
+
+aside{					
+	
+	display: none;
+	
+}
+
+
+
+form {
+	width: 25%;
+
+
+	
+}
+
+
+
+
+
+
+#introPara h1{
+	color: black;
+	width: 70%;
+	font: bold 2em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+
+#introPara img{
+	width: 35%;
+	float: left;
+	padding: 1% 1%.5% 1%;
+}
+
+
+
+
+
+
+
+
+
+
+	
+}
+
+
+
+
+@media screen and (max-width:550px) {
+	body{
+		background-color:yellow;
+	}
+	
+	
+	#logoTitle{
+			font: 1.2em Geneva,"Helvetica Neue", sans-serif;		/* style for the logo */
+			}
+	
+	
+	
+#navigation ul li a{
+	
+	height:3em;
+	line-height:-3em;
+	margin-right: 97%     
+	text-transform: uppercase;
+	font-family:Verdana,arial;
+	font-size:.8em;
+	list-style-type: none;
+	overflow: hidden;
+	display: block;
+}
+
+#borderVideoBox{
+	display: none;
+	
+}
+
+
+#videoBox{
+display: none;
+}
+
+
+#mainSection{
+	
+	
+	width: 100%;
+	
+	border-right-style: none;
+	
+	}
+	
+
+aside{					
+	
+	display: none;
+	
+}
+
+
+
+
+}
